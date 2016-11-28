@@ -5,7 +5,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 
 class Test extends Model {
-// this
+// this from gits 
     protected $fillable = ['name', 'email', 'address'];
 
     public function order() {
