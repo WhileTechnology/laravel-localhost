@@ -18,3 +18,7 @@ Route::get('/test', 'testController@index');
 Route::get('/test/{id}', function ($id) {
     echo $id;
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
