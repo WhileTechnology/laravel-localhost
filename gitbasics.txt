@@ -1,0 +1,7 @@
+git init
+git add origin ""
+git push origin master 
+git commit -m ""
+
+vi filename 
+to exit ESC >:wq (write & quite)
