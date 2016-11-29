@@ -22,3 +22,4 @@ Route::get('/test/{id}', function ($id) {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/dashboard', 'HomeController@dashboard');

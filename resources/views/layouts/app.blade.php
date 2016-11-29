@@ -36,7 +36,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        {{ config('app.name', '') }}
                     </a>
                 </div>
 
@@ -79,7 +79,7 @@
         </nav>
 
         @yield('content')
-    </div>
+    </div afadsf>
 
     <!-- Scripts -->
     <script src="/js/app.js"></script>
