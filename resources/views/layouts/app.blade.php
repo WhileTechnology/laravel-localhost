@@ -79,7 +79,7 @@
         </nav>
 
         @yield('content')
-    </div class="ann">
+    </div>
 
     <!-- Scripts -->
     <script src="/js/app.js"></script>
