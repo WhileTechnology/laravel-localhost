@@ -5,3 +5,5 @@ git commit -m ""
 
 vi filename 
 to exit ESC >:wq (write & quite)
+
+$git remote add origin ssh://git@example.com:1234/myRepo.git
